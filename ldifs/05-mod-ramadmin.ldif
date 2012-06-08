@@ -1,0 +1,4 @@
+dn: uid=ramadmin,ou=users,dc=example,dc=com
+changetype: modify
+add:phone
+telephoneNumber: 555-555-5555

@@ -1,0 +1,13 @@
+dn: dc=example,dc=com
+dc: example
+objectClass: domain
+
+dn: ou=users,dc=example,dc=com
+ou: users
+objectClass: organizationalUnit
+description: Org group for users.
+
+dn: ou=groups,dc=example,dc=com
+ou: groups
+objectClass: organizationalUnit
+description: Org group for groups.

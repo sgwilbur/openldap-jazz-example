@@ -1,0 +1,23 @@
+dn: uid=user1,ou=users,dc=example,dc=com
+uid: user1 
+cn: User One
+sn: One
+objectClass: inetOrgPerson
+userPassword: user1
+mail: user1@example.com
+
+dn: uid=ramadmin,ou=users,dc=example,dc=com
+uid: ramadmin 
+cn: RAM Admin
+sn: Admin
+objectClass: inetOrgPerson
+userPassword: ramadmin
+mail: ramadmin@example.com
+
+dn: uid=bfadmin,ou=users,dc=example,dc=com
+uid: bfadmin 
+cn: BF Admin
+sn: Admin
+objectClass: inetOrgPerson
+userPassword: bfadmin
+mail: bfadmin@example.com

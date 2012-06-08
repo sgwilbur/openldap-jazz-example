@@ -1,0 +1,4 @@
+dn: cn=jazzadmins,ou=groups,dc=example,dc=com
+changetype: modify
+replace: cn
+cn: JazzAdmins

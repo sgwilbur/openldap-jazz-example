@@ -1,0 +1,36 @@
+
+dn: cn=jazzadmins,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: jazzadmins
+description: JazzAdmins Users Group
+member: uid=user1,ou=users,dc=example,dc=com
+
+dn: cn=jazzdwadmins,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: jazzdwadmins
+description: JazzDWAdmins Users Group
+member: uid=user1,ou=users,dc=example,dc=com
+
+dn: cn=jazzprojectadmins,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: jazzprojectadmins
+description: JazzProjectAdmins Users Group
+member: uid=user1,ou=users,dc=example,dc=com
+
+dn: cn=jazzusers,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: jazzusers
+description: JazzUsers Users Group
+member: uid=user1,ou=users,dc=example,dc=com
+
+dn: cn=jazzguests,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: jazzguests
+description: JazzGuest Users Group
+member: uid=user1,ou=users,dc=example,dc=com
+
+dn: cn=ramusers,ou=groups,dc=example,dc=com
+objectclass: groupofnames
+cn: ramusers
+description: RAM Users Group
+member: uid=ramadmin,ou=users,dc=example,dc=com
