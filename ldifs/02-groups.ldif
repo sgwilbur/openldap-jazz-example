@@ -38,7 +38,7 @@ dn: cn=jazzguests,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzguests
 description: JazzGuest Users Group
-# member: uid=user1,ou=users,dc=example,dc=com
+member: uid=jazzadmin,ou=users,dc=example,dc=com
 
 ## Other Rational Groups
 
