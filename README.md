@@ -17,7 +17,17 @@ needs.
      --- RAMAdmins
      --- RAMUsers
      -- ou=users
-     --- user1
+     --- al
+     --- bob
+     --- build
+     --- curtis
+     --- deb
+     --- marco
+     --- rebecca
+     --- sally
+     --- tammy
+     --- tanuj
+     --- ursala
      --- ramadmin
      --- bfadmin
 

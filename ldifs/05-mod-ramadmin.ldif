@@ -1,3 +1,6 @@
+
+# As well as a name, sn, cn, and mail RAM also requires a phone attribute
+# so we can perform a ldapmodify with this file to accomplish this add.
 dn: uid=ramadmin,ou=users,dc=example,dc=com
 changetype: modify
 add:phone
