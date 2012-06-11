@@ -44,7 +44,13 @@ needs.
  
  00 - Base - Adds the top level oraganizational units(ou) for users and groups
  
-ldapadd -x -D cn=ldapadmin,dc=example,dc=com -w secret -f 00-base.ldif
+[virtuser@clm2012 ldifs]$ ldapadd -x -D cn=ldapadmin,dc=example,dc=com -w secret -f 00-base.ldif
+adding new entry "dc=example,dc=com"
+
+adding new entry "ou=users,dc=example,dc=com"
+
+adding new entry "ou=groups,dc=example,dc=com"
+
  
  01 - Users - Add a set of users
  
