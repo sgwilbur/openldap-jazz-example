@@ -1,10 +1,104 @@
-dn: uid=user1,ou=users,dc=example,dc=com
-uid: user1 
-cn: User One
-sn: One
+dn: uid=jazzadmin,ou=users,dc=example,dc=com
+uid: jazzadmin 
+cn: Jazz
+sn: Admin
 objectClass: inetOrgPerson
-userPassword: user1
-mail: user1@example.com
+userPassword: jazzadmin
+mail: jazzadmin@example.com
+
+
+## Money that Matters Users ##
+
+dn: uid=al,ou=users,dc=example,dc=com
+uid: al
+cn: Al
+sn: User
+objectClass: inetOrgPerson
+userPassword: al
+mail: al@jkebanking.net
+
+dn: uid=bob,ou=users,dc=example,dc=com
+uid: bob
+cn: Bob
+sn: User
+objectClass: inetOrgPerson
+userPassword: bob
+mail: bob@jkebanking.net
+
+dn: uid=build,ou=users,dc=example,dc=com
+uid: build
+cn: Build
+sn: User
+objectClass: inetOrgPerson
+userPassword: build
+mail: build@jkebanking.net
+
+dn: uid=curtis,ou=users,dc=example,dc=com
+uid: curtis
+cn: Curtis
+sn: User
+objectClass: inetOrgPerson
+userPassword: curtis
+mail: curtis@jkebanking.net
+
+dn: uid=deb,ou=users,dc=example,dc=com
+uid: deb
+cn: Deb
+sn: User
+objectClass: inetOrgPerson
+userPassword: deb
+mail: deb@jkebanking.net
+
+dn: uid=marco,ou=users,dc=example,dc=com
+uid: marco
+cn: Marco
+sn: User
+objectClass: inetOrgPerson
+userPassword: marco
+mail: marco@jkebanking.net
+
+dn: uid=rebecca,ou=users,dc=example,dc=com
+uid: rebecca
+cn: Rebecca
+sn: User
+objectClass: inetOrgPerson
+userPassword: rebecca
+mail: rebecca@jkebanking.net
+
+dn: uid=sally,ou=users,dc=example,dc=com
+uid: sally
+cn: Sally
+sn: User
+objectClass: inetOrgPerson
+userPassword: sally
+mail: sally@jkebanking.net
+
+dn: uid=tammy,ou=users,dc=example,dc=com
+uid: tammy
+cn: Tammy
+sn: User
+objectClass: inetOrgPerson
+userPassword: tammy
+mail: tammy@jkebanking.net
+
+dn: uid=tanuj,ou=users,dc=example,dc=com
+uid: tanuj
+cn: Tanuj
+sn: User
+objectClass: inetOrgPerson
+userPassword: tanuj
+mail: tanuj@jkebanking.net
+
+dn: uid=ursala,ou=users,dc=example,dc=com
+uid: ursala
+cn: Ursala
+sn: User
+objectClass: inetOrgPerson
+userPassword: ursala
+mail: ursala@jkebanking.net
+
+
+## Other Rational Users
 
 dn: uid=ramadmin,ou=users,dc=example,dc=com
 uid: ramadmin 

@@ -3,31 +3,44 @@ dn: cn=jazzadmins,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzadmins
 description: JazzAdmins Users Group
-member: uid=user1,ou=users,dc=example,dc=com
+member: uid=jazzadmin,ou=users,dc=example,dc=com
 
 dn: cn=jazzdwadmins,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzdwadmins
 description: JazzDWAdmins Users Group
-member: uid=user1,ou=users,dc=example,dc=com
+member: uid=jazzadmin,ou=users,dc=example,dc=com
 
 dn: cn=jazzprojectadmins,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzprojectadmins
 description: JazzProjectAdmins Users Group
-member: uid=user1,ou=users,dc=example,dc=com
+member: uid=jazzadmin,ou=users,dc=example,dc=com
 
 dn: cn=jazzusers,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzusers
 description: JazzUsers Users Group
-member: uid=user1,ou=users,dc=example,dc=com
+member: uid=al,ou=users,dc=example,dc=com
+member: uid=bob,ou=users,dc=example,dc=com
+member: uid=build,ou=users,dc=example,dc=com
+member: uid=curtis,ou=users,dc=example,dc=com
+member: uid=deb,ou=users,dc=example,dc=com
+member: uid=marco,ou=users,dc=example,dc=com
+member: uid=rebecca,ou=users,dc=example,dc=com
+member: uid=sally,ou=users,dc=example,dc=com
+member: uid=tammy,ou=users,dc=example,dc=com
+member: uid=tanuj,ou=users,dc=example,dc=com
+member: uid=ursala,ou=users,dc=example,dc=com
+
 
 dn: cn=jazzguests,ou=groups,dc=example,dc=com
 objectclass: groupofnames
 cn: jazzguests
 description: JazzGuest Users Group
-member: uid=user1,ou=users,dc=example,dc=com
+# member: uid=user1,ou=users,dc=example,dc=com
+
+## Other Rational Groups
 
 dn: cn=ramusers,ou=groups,dc=example,dc=com
 objectclass: groupofnames
