@@ -62,7 +62,7 @@ See the slapd.conf file:
 
     database	bdb
     suffix		"dc=example,dc=com"
-    rootdn		"cn=ldapadmin,dc=example,dc=com"
+    rootdn		"uid=ldapadmin,dc=example,dc=com"
     # Cleartext passwords, especially for the rootdn, should
     # be avoided.  See slappasswd(8) and slapd.conf(5) for details.
     # Use of strong authentication encouraged.
@@ -72,7 +72,7 @@ See the slapd.conf file:
 
 === 00 - Base - Adds the top level oraganizational units(ou) for users and groups
  
-    [virtuser@clm2012 ldifs]$ ldapadd -x -D cn=ldapadmin,dc=example,dc=com -w secret -f 00-base.ldif
+    [virtuser@clm2012 ldifs]$ ldapadd -x -D uid=ldapadmin,dc=example,dc=com -w secret -f 00-base.ldif
     adding new entry "dc=example,dc=com"
 
     adding new entry "ou=users,dc=example,dc=com"
@@ -82,7 +82,7 @@ See the slapd.conf file:
  
 === 01 - Users - Add a set of users
  
-    [virtuser@clm2012 ldifs]$ ldapadd -x -D cn=ldapadmin,dc=example,dc=com -w secret -f 01-users.ldif
+    [virtuser@clm2012 ldifs]$ ldapadd -x -D uid=ldapadmin,dc=example,dc=com -w secret -f 01-users.ldif
     adding new entry "uid=jazzadmin,ou=users,dc=example,dc=com"
 
     adding new entry "uid=al,ou=users,dc=example,dc=com"
@@ -114,7 +114,7 @@ See the slapd.conf file:
  
 === 02 - Groups + Members - 
  
-    [virtuser@clm2012 ldifs]$ ldapadd -x -D cn=ldapadmin,dc=example,dc=com -w secret -f 02-groups.ldif
+    [virtuser@clm2012 ldifs]$ ldapadd -x -D uid=ldapadmin,dc=example,dc=com -w secret -f 02-groups.ldif
     adding new entry "cn=jazzadmins,ou=groups,dc=example,dc=com"
 
     adding new entry "cn=jazzdwadmins,ou=groups,dc=example,dc=com"
@@ -300,5 +300,5 @@ OpenLDAP sample commands: http://www.zytrax.com/books/ldap/ch5/
  
 Setting a password for a user:
  
-    ldappasswd -x -v -S -D cn=ldapadmin,dc=example,dc=com -w *** cn=jazzadmin,ou=users,dc=example,dc=com
+    ldappasswd -x -v -S -D uid=ldapadmin,dc=example,dc=com -w *** cn=jazzadmin,ou=users,dc=example,dc=com
  
