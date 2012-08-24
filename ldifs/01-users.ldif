@@ -1,5 +1,5 @@
 dn: uid=jazzadmin,ou=users,dc=example,dc=com
-uid: jazzadmin 
+uid: jazzadmin
 cn: Jazz
 sn: Admin
 objectClass: inetOrgPerson
@@ -101,7 +101,7 @@ mail: ursala@jkebanking.net
 ## Other Rational Users
 
 dn: uid=ramadmin,ou=users,dc=example,dc=com
-uid: ramadmin 
+uid: ramadmin
 cn: RAM Admin
 sn: Admin
 objectClass: inetOrgPerson
@@ -109,7 +109,7 @@ userPassword: ramadmin
 mail: ramadmin@example.com
 
 dn: uid=bfadmin,ou=users,dc=example,dc=com
-uid: bfadmin 
+uid: bfadmin
 cn: BF Admin
 sn: Admin
 objectClass: inetOrgPerson
